@@ -1,4 +1,4 @@
-import user_image from './user-image.png';
+import user_image from './harsh.jpg';
 import code_icon from './code-icon.png';
 import code_icon_dark from './code-icon-dark.png';
 import edu_icon from './edu-icon.png';
@@ -11,11 +11,11 @@ import figma from './figma.png';
 import git from './git.png';
 import mongodb from './mongodb.png';
 import right_arrow_white from './right-arrow-white.png';
-import logo from './logo.png';
+import logo from './logo-transparent-png.png';
 import logo_dark from './logo_dark.png';
 import mail_icon from './mail_icon.png';
 import mail_icon_dark from './mail_icon_dark.png';
-import profile_img from './profile-img.png';
+import profile_img from './harsh-photoaidcom-cropped (1).jpg';
 import download_icon from './download-icon.png';
 import hand_icon from './hand-icon.png';
 import header_bg_color from './header-bg-color.png';
@@ -35,7 +35,8 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
-
+import Database from './database.png';
+import Database_dark from './icons8-database-50 (2).png';
 export const assets = {
     user_image,
     code_icon,
@@ -73,29 +74,35 @@ export const assets = {
     right_arrow,
     send_icon,
     right_arrow_bold,
-    right_arrow_bold_dark
+    right_arrow_bold_dark,
+    Database,
+    Database_dark
 };
 
 export const workData = [
     {
-        title: 'Frontend project',
+        title: 'Shopping website',
         description: 'Web Design',
-        bgImage: '/work-1.png',
+        bgImage: '/codewear.png',
+        link: 'https://codeswear-pifw.vercel.app',
     },
     {
-        title: 'Geo based app',
+        title: 'Shopping website',
         description: 'Mobile App',
-        bgImage: '/work-2.png',
+        bgImage: '/codewear.png',
+         link: 'https://codeswear-pifw.vercel.app',
     },
     {
-        title: 'Photography site',
+        title: 'Shopping website',
         description: 'Web Design',
-        bgImage: '/work-3.png',
+        bgImage: '/codewear.png',
+         link: 'https://codeswear-pifw.vercel.app',
     },
     {
-        title: 'UI/UX designing',
+        title: 'Shopping website',
         description: 'UI/UX Design',
-        bgImage: '/work-4.png',
+        bgImage: '/codewear.png',
+         link: 'https://codeswear-pifw.vercel.app',
     },
 ]
 
@@ -107,11 +114,12 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js, Express.Js'},
+     { icon: assets.Database, iconDark: assets.Database_dark, title: 'Database', description: 'MySQL, SQL Server, MongoDB'},
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: "Bachelor's", description: 'Bsc(CA & IT)', college:"N.V Patel College" },
+     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: "Master's", description: 'MCA', college:"Parul University" } 
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    assets.vscode, assets.mongodb, assets.git
 ];
