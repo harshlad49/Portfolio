@@ -90,10 +90,10 @@ export const workData = [
         link: 'https://textbook-com.vercel.app',
     },
     {
-        title: 'Shopping website',
+        title: 'Chat app',
         description: 'Web Design',
-        bgImage: '/codewear.png',
-         link: 'https://codeswear-pifw.vercel.app',
+        bgImage: '/Chattu.png',
+         link: 'https://chattu-9chi.vercel.app/',
     },
     {
         title: 'Shopping website',
