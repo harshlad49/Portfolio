@@ -94,13 +94,7 @@ export const workData = [
         description: 'Web Design',
         bgImage: '/Chattu.png',
          link: 'https://chattu-9chi.vercel.app/',
-    },
-    {
-        title: 'Shopping website',
-        description: 'UI/UX Design',
-        bgImage: '/codewear.png',
-         link: 'https://codeswear-pifw.vercel.app',
-    },
+    }
 ]
 
 export const serviceData = [
