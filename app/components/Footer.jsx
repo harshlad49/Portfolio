@@ -15,7 +15,7 @@ const Footer = ({isDarkMode}) => {
         <p>© 2025 Harsh Lad. All right reserved.</p>
         <ul className='flex items-center gap-10 ju mt-4 sm:mt-0'>
           <li><a target='_blank' href='https://github.com/harshlad49'>GitHub</a></li>
-          <li><a target='_blank' href='www.linkedin.com/in/harsh-lad-739016166'>LinkenIn</a></li>
+          <li><a target='_blank' href='https://www.linkedin.com/in/harsh-lad-739016166'>LinkenIn</a></li>
         </ul>
       </div>
     </div>
